@@ -1,5 +1,5 @@
 Bottom: 4dd7473b5ba1cd988c44ca744fdb931c9741c79d
-Top:    4dd7473b5ba1cd988c44ca744fdb931c9741c79d
+Top:    53bbd48f7b74105178780d892fa046911eb81841
 Author: scott snyder <sss@karma>
 Date:   2020-02-03 10:24:58 -0500
 
@@ -8,4 +8,29 @@ Fix compilation warnings.
 
 ---
 
-
+diff --git a/source/src/DBFileHandler.cc b/source/src/DBFileHandler.cc
+index 09762c3..6bc1063 100644
+--- a/source/src/DBFileHandler.cc
++++ b/source/src/DBFileHandler.cc
+@@ -99,7 +99,7 @@ namespace lccd {
+ 	_validTill = _valVec[ evtNum ].second  ;    
+ 	//	std::cout << "DBFileHandler::update: setting validity range:" << _validSince << " " << _validTill << std::endl ;		
+ 	
+-      } catch(lccd::DataNotAvailableException) {
++      } catch(const lccd::DataNotAvailableException&) {
+ 	
+ 	//	std::cout << "DBFileHandler::update: evtNum not found" << std::endl ;	
+ 	
+diff --git a/source/src/DBInterface.cc b/source/src/DBInterface.cc
+index 70fce34..3edfd87 100644
+--- a/source/src/DBInterface.cc
++++ b/source/src/DBInterface.cc
+@@ -831,7 +831,7 @@ namespace lccd {
+       {
+ 	condTagMgr()->createCondDBTag( tag, description ) ;
+       }
+-    catch ( CondDBException condbexc )
++    catch ( const CondDBException& condbexc )
+       {
+ 	//	std::cout << " WARNING: DBInterface::tagFolder: "<<condbexc.getMessage() << std::endl;
+       }
