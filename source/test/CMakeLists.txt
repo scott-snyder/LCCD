@@ -30,11 +30,11 @@ ADD_LCCD_TEST( testdbfile ./testdbfile.cc )
 
 IF( LCCD_CONDDBMYSQL )
 
-    ADD_LCCD_TEST( calfilefromdb ./conddbtests/calfilefromdb )
-    ADD_LCCD_TEST( calfiletodb ./conddbtests/calfiletodb )
-    ADD_LCCD_TEST( createdbfile ./conddbtests/createdbfile )
-    ADD_LCCD_TEST( tagdbfolder ./conddbtests/tagdbfolder )
-    ADD_LCCD_TEST( multiblefolders ./conddbtests/multiblefolders )
+    ADD_LCCD_TEST( calfilefromdb ./conddbtests/calfilefromdb.cc )
+    ADD_LCCD_TEST( calfiletodb ./conddbtests/calfiletodb.cc )
+    ADD_LCCD_TEST( createdbfile ./conddbtests/createdbfile.cc )
+    ADD_LCCD_TEST( tagdbfolder ./conddbtests/tagdbfolder.cc )
+    ADD_LCCD_TEST( multiblefolders ./conddbtests/multiblefolders.cc )
 
 ENDIF()
 
