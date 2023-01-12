@@ -18,7 +18,7 @@ namespace lccd {
 
 
   /** Helper predicate to find validity ranges */
-  class contains_timestamp : public std::unary_function<ValidityInterval,bool>{
+  class contains_timestamp {
   public:
     contains_timestamp(LCCDTimeStamp  t) : _t( t) {}  
     bool operator()(const ValidityInterval& v) {
