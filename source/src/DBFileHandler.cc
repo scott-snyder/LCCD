@@ -87,7 +87,7 @@ namespace lccd {
 	_validTill = _valVec[ evtNum ].second  ;    
 	//	std::cout << "DBFileHandler::update: setting validity range:" << _validSince << " " << _validTill << std::endl ;		
 	
-      } catch(lccd::DataNotAvailableException&) {
+      } catch(const lccd::DataNotAvailableException&) {
 	
 	//	std::cout << "DBFileHandler::update: evtNum not found" << std::endl ;	
 	
