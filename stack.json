@@ -1,14 +1,14 @@
 {
   "version": 5,
-  "prev": "043056abedef560cad6d8c89b12c8c061e42ed98",
-  "head": "6aea5efa0d26a82397d10a087ccb4e8e55358e73",
+  "prev": "a90d15a0d544d11c99310c5991325e395d00b5cf",
+  "head": "04fe3b8878d04a711fb9d375c9558e87cd2e6311",
   "applied": [
     "gitignore",
     "warn1",
-    "warn",
-    "cmake.LCCD"
+    "warn"
   ],
   "unapplied": [
+    "cmake.LCCD",
     "warn2"
   ],
   "hidden": [],
