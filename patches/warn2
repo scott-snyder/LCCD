@@ -1,0 +1,8 @@
+Bottom: b4494f577307e179e655153b3214ddaab705867b
+Top:    b4494f577307e179e655153b3214ddaab705867b
+Author: scott snyder <sss@karma>
+Date:   2024-05-18 19:33:27 -0400
+
+Fix compilation warning?
+
+Catching non-const exception.

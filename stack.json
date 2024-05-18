@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "338e5789f7a97b13c702d6fce3a5ac07a8f3c0bf",
-  "head": "1b3091f47f32fdda15e01240e36950635267e9f5",
+  "prev": "009f25312ade56bc53c61d0cdca5de904962197e",
+  "head": "45ed07e3d7b9a84b6efe5147d4a2c118347a3199",
   "applied": [
     "gitignore",
     "cmake.LCCD",
-    "warn1"
+    "warn1",
+    "warn2"
   ],
   "unapplied": [
     "warn"
@@ -20,6 +21,9 @@
     },
     "warn1": {
       "oid": "1b3091f47f32fdda15e01240e36950635267e9f5"
+    },
+    "warn2": {
+      "oid": "45ed07e3d7b9a84b6efe5147d4a2c118347a3199"
     },
     "warn": {
       "oid": "58d8e77ae2ebc40d92263db6a4d2b26d17cc911b"
