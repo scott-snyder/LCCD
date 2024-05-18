@@ -1,0 +1,8 @@
+Bottom: f5bdfaaac6c85a67b6c01512cb1649f192a6ea50
+Top:    f5bdfaaac6c85a67b6c01512cb1649f192a6ea50
+Author: scott snyder <sss@karma>
+Date:   2024-05-18 19:32:54 -0400
+
+Fix compilation warning.
+
+Catching polymorphic exception by value.
