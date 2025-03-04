@@ -1,6 +1,0 @@
-Bottom: e972af016919c453986d7e983abd29845a16443c
-Top:    e972af016919c453986d7e983abd29845a16443c
-Author: scott snyder <sss@karma>
-Date:   2025-03-04 13:46:34 -0500
-
-Fix compilation warnings.
