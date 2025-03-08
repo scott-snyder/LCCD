@@ -1,8 +1,0 @@
-Bottom: da5a8f5563311c2f50de635fd699427c342c997a
-Top:    b930344ea4160e06ad672d33c21840477a40d589
-Author: scott snyder <sss@karma>
-Date:   2025-03-04 13:46:36 -0500
-
-Fix compilation warning?
-
-Catching non-const exception.
