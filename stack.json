@@ -1,16 +1,20 @@
 {
   "version": 5,
-  "prev": "7513a70eccd8bc3c59b26b379171db0b87c3d118",
-  "head": "50d85133c62bc1abb5034a8852b7cc94c8104ef5",
+  "prev": "24e389e58f9e0b420f696c2a6a95d8edaefbc834",
+  "head": "b3d4ba354e162131f6b521c20207c9af0371f490",
   "applied": [
     "gitignore",
-    "cmake.LCCD"
+    "cmake.LCCD",
+    "cmakewarn"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "cmake.LCCD": {
       "oid": "50d85133c62bc1abb5034a8852b7cc94c8104ef5"
+    },
+    "cmakewarn": {
+      "oid": "b3d4ba354e162131f6b521c20207c9af0371f490"
     },
     "gitignore": {
       "oid": "600e2b9a6a94d89b0632a79d99ca44b3b981f0fe"
